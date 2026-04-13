@@ -53,7 +53,7 @@ const stacks = [
   },
   {
     name: "Tailwind CSS",
-    image: "/tailwind.png",
+    image: "/tailwiind.png",
     desc: "Utility-first CSS framework for rapid UI development."
   },
   {
