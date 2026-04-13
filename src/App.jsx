@@ -6,6 +6,7 @@ import Project from './sections/project'
 import Services from './sections/services'
 import Contact from './sections/contact'
 import Sidebar from './components/sidebar'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       
       {/* Fixed Sidebar visible everywhere */}
       <Sidebar />
+      <Footer />
     </div>
   )
 }

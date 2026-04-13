@@ -17,7 +17,7 @@ export default function Contact() {
     setStatus({ type: "", message: "" });
 
     try {
-      const response = await fetch('http://localhost:5000/api/send-email', {
+      const response = await fetch('https://new-website-backend-h28j.onrender.com/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
