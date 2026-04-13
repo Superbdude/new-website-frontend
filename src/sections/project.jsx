@@ -340,7 +340,7 @@ function Project() {
                 transition-all duration-1000 ease-in-out rounded-l-xl z-10 border-r border-[#6fe1ed]/30">
 
                 <button 
-                    onClick={() => window.open('https://zeplus-lag.web.app', '_blank')}
+                    onClick={() => window.open('https://zeplusacademy.com', '_blank')}
                     onMouseEnter={() => setPreviewId(1)}
                     onMouseLeave={() => setPreviewId(null)}
                     className="text-gray-300 hover:text-[#6fe1ed] transition relative"
