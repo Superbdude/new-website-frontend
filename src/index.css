@@ -22,11 +22,11 @@
 }
 
 .marquee {
-  animation: marquee 40s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee-reverse {
-  animation: marquee-reverse 40s linear infinite;
+  animation: marquee-reverse 20s linear infinite;
 }
 
 .marquee:hover,
