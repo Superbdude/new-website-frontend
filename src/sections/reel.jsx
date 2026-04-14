@@ -1,11 +1,11 @@
 export default function Reel() {
   const images = [
-    { id: 1, src: "/hero-bg.avif", alt: "Reel 1" },
-    { id: 2, src: "/light.jpg", alt: "Reel 2" },
-    { id: 3, src: "/lights.jpg", alt: "Reel 3" },
-    { id: 4, src: "/still.jpg", alt: "Reel 4" },
-    { id: 5, src: "/mybg.png", alt: "Reel 5" },
-    { id: 6, src: "/light.webp", alt: "Reel 6" },
+    { id: 1, src: "/reel-pictures/d.jpeg", alt: "Reel 1" },
+    { id: 2, src: "/reel-pictures/f.jpeg", alt: "Reel 2" },
+    { id: 3, src: "/reel-pictures/a.jpeg", alt: "Reel 3" },
+    { id: 4, src: "/reel-pictures/b.jpeg", alt: "Reel 4" },
+    { id: 5, src: "/reel-pictures/c.jpeg", alt: "Reel 5" },
+    { id: 6, src: "/reel-pictures/e.jpeg", alt: "Reel 6" },
   ];
 
   return (
@@ -18,7 +18,7 @@ export default function Reel() {
       </div>
 
       {/* First Marquee - Left to Right */}
-      <div className="overflow-hidden mb-6 fade-edges">
+      <div className="overflow-hidden mb-6 fade-edges px-20">
         <div className="flex gap-6 marquee">
           {images.map((image) => (
             <div
@@ -48,7 +48,7 @@ export default function Reel() {
       </div>
 
       {/* Second Marquee - Right to Left */}
-      <div className="overflow-hidden fade-edges">
+      <div className="overflow-hidden fade-edges px-20">
         <div className="flex gap-6 marquee-reverse">
           {images.map((image) => (
             <div
