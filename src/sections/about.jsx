@@ -9,23 +9,7 @@ const textParts = [
 export default function App() {
 
     // birthdate age constantly uppdating every year
-    const birthDate = new Date ("1998-04-25");
-
-    const calculateAge = () => {
-        const today = new Date();
-        let age = today.getFullYear() - birthDate.getFullYear()
-
-        const monthDiff = today.getMonth() - birthDate.getMonth();
-
-        if(
-            monthDiff < 0 ||
-            (monthDiff === 0 && today.getDate() < birthDate.getDate())
-        ) {
-            age--;
-        }
-        return age;
-    }
-
+   
     // smooth words transition 
     const [currentText, setCurrentText] = useState("");
     const [index, setIndex] = useState(0);
@@ -117,10 +101,6 @@ return (
           <p className="text-sm text-gray-200">Oguntade Razak Damilare</p>
         </div>
 
-        <div className="flex items-center gap-4">
-          <h3 className="w-24 font-semibold text-sm text-[#ffcf17]">Age:</h3>
-          <p className="text-sm text-gray-200">{calculateAge()}</p>
-        </div>
 
         <div className="flex items-center gap-4">
           <h3 className="w-24 font-semibold text-sm text-[#ffcf17]">Location:</h3>
