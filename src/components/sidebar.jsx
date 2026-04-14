@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Home, User, Code2, Briefcase, Zap, Mail, Menu, X } from "lucide-react";
+import { Home, User, Code2, Briefcase, Zap, Mail, Menu, X, Image } from "lucide-react";
 
 const menuItems = [
     { icon: Home, label: "Home", id: "hero" },
@@ -7,6 +7,7 @@ const menuItems = [
     { icon: Code2, label: "Tech Stack", id: "stacks" },
     { icon: Briefcase, label: "Experience", id: "experience" },
     { icon: Zap, label: "Projects", id: "projects" },
+    { icon: Image, label: "Reel", id: "reel" },
     { icon: Mail, label: "Contact", id: "contact" },
 ];
 
