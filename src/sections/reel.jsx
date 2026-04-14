@@ -11,7 +11,7 @@ export default function Reel() {
   return (
     <section className="w-full py-20 bg-[#111111]">
       {/* Header */}
-      <div className="px-10 mb-12">
+      <div className="md:px-40 px-10 mb-12">
         <h2 className="text-2xl md:text-6xl lg:text-7xl font-bold text-white">
           Randoms <span className="text-[#ffcf17]">Reel</span>
         </h2>
