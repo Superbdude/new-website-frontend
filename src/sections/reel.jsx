@@ -18,12 +18,12 @@ export default function Reel() {
       </div>
 
       {/* First Marquee - Left to Right */}
-      <div className="overflow-hidden mb-6 fade-edges px-20">
-        <div className="flex gap-6 marquee">
+      <div className="overflow-hidden mb-6 fade-edges px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="flex gap-2 sm:gap-4 md:gap-6 marquee">
           {images.map((image) => (
             <div
               key={`first-${image.id}`}
-              className="flex-shrink-0 w-80 h-64 rounded-2xl overflow-hidden"
+              className="flex-shrink-0 w-48 sm:w-60 md:w-72 lg:w-80 h-40 sm:h-48 md:h-56 lg:h-64 rounded-2xl overflow-hidden"
             >
               <img
                 src={image.src}
@@ -35,7 +35,7 @@ export default function Reel() {
           {images.map((image) => (
             <div
               key={`first-repeat-${image.id}`}
-              className="flex-shrink-0 w-80 h-64 rounded-2xl overflow-hidden"
+              className="flex-shrink-0 w-48 sm:w-60 md:w-72 lg:w-80 h-40 sm:h-48 md:h-56 lg:h-64 rounded-2xl overflow-hidden"
             >
               <img
                 src={image.src}
@@ -48,12 +48,12 @@ export default function Reel() {
       </div>
 
       {/* Second Marquee - Right to Left */}
-      <div className="overflow-hidden fade-edges px-20">
-        <div className="flex gap-6 marquee-reverse">
+      <div className="overflow-hidden fade-edges px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="flex gap-2 sm:gap-4 md:gap-6 marquee-reverse">
           {images.map((image) => (
             <div
               key={`second-${image.id}`}
-              className="flex-shrink-0 w-80 h-64 rounded-2xl overflow-hidden"
+              className="flex-shrink-0 w-48 sm:w-60 md:w-72 lg:w-80 h-40 sm:h-48 md:h-56 lg:h-64 rounded-2xl overflow-hidden"
             >
               <img
                 src={image.src}
@@ -65,7 +65,7 @@ export default function Reel() {
           {images.map((image) => (
             <div
               key={`second-repeat-${image.id}`}
-              className="flex-shrink-0 w-80 h-64 rounded-2xl overflow-hidden"
+              className="flex-shrink-0 w-48 sm:w-60 md:w-72 lg:w-80 h-40 sm:h-48 md:h-56 lg:h-64 rounded-2xl overflow-hidden"
             >
               <img
                 src={image.src}
